@@ -1,0 +1,22 @@
+body{
+    padding:0px;
+    margin:0px;
+}
+html{
+    font-size:10px;
+}
+
+$mypc:1365px;
+$myshift:765px;
+
+@media screen and (max-width:$mypc){
+    #app{
+        min-width:1365px;
+    }
+}
+@media screen and (max-width:$myshift){
+    #app{
+        min-width:765px;
+    }
+}
+
